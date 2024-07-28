@@ -26,6 +26,9 @@ you can use video tag to put a video inside a div container and put a video usin
 ```
 #### what is the problem with videos?
 *the size of video way more bigger some time that make it hard to load so*
-the solution is use different video formeeter that make video size smaller we can use different forment accorsing to our work to make video ligher and not compromize with their quality.
 
+*solution*
+`webM`(go online and search webM convertor)  formet is video forment that can use to put video on our website for information as a grpahics
+`webM` make video size smaller we can use different forment accorsing to our work to make video ligher and not compromize with their quality.
 
+note :- you can preffer any other forment you like
