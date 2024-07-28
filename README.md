@@ -32,3 +32,35 @@ you can use video tag to put a video inside a div container and put a video usin
 `webM` make video size smaller we can use different forment accorsing to our work to make video ligher and not compromize with their quality.
 
 note :- you can preffer any other forment you like
+
+
+## transition 
+
+-- The `transition-property` in CSS specifies which CSS properties will undergo a transition effect when their values change. This property is part of the CSS Transitions module, which allows you to create smooth animations without using JavaScript.
+e.g.
+```
+transition-property:background-color
+```
+we can pass multiple values and time to this and chnage time curve of the transition.
+```
+transition:all 0.18s ease-in-out;
+
+```
+used all keyword to assign same effect to all or you can by following way
+
+e.g:- 
+```
+btn
+{
+    trasition: backgound-color 5s ease-in,text-shadow 2s ease-in-out, font-size 1s;
+}
+.btn:hover
+{
+    background-color: rgb(105, 47, 240);
+    text-shadow: 0px 9px 6px black;
+    font-size: 27px;
+
+}
+```
+
+in above code use transition keyword to provide the different timimg of transition.
